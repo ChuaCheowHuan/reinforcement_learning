@@ -12,6 +12,8 @@ If you're unable to view the Jupyter notebooks on Github
 (This is a known Github issue which happens randomly as of 20090624),
 copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.jupyter.org/)
 
+Example: My 9) DPPO continuous [notebook](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/DPPO_cont_GAE_dist_GPU.ipynb) at nbviewer.
+
 1) DQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
 >A Deep Q Network implementation in tensorflow with target network & random
