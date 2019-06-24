@@ -14,12 +14,12 @@ copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.
 
 1) DQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
-$\quad$ A Deep Q Network implementation in tensorflow with target network & random
+&nbsp;&nbsp;&nbsp;A Deep Q Network implementation in tensorflow with target network & random
 experience replay. CartPole-v0 is used as the discrete environment. [write-ups](https://chuacheowhuan.github.io/DQN/)
 
 2) DDQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DDQN/double_DQN_cartpole.ipynb)
 
-$\quad$ A Double Deep Q Network (DDQN) implementation in tensorflow with random
+&nbsp;&nbsp;&nbsp;A Double Deep Q Network (DDQN) implementation in tensorflow with random
 experience replay. [write-ups](https://chuacheowhuan.github.io/DDQN/)
 
 3) Duelling DDQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/duel_DDQN/duelling_DDQN_cartpole.ipynb)
