@@ -10,7 +10,7 @@ The blog for this repo is available at the following Github page:
 
 If you're unable to view the Jupyter notebooks on Github
 (This is a known Github issue which happens randomly as of 20090624),
-copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.jupyter.org/)
+copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.jupyter.org/).
 
 1) DQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
