@@ -14,12 +14,12 @@ copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.
 
 1) DQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
-&nbsp;&nbsp;&nbsp;A Deep Q Network implementation in tensorflow with target network & random
+>A Deep Q Network implementation in tensorflow with target network & random
 experience replay. CartPole-v0 is used as the discrete environment. [write-ups](https://chuacheowhuan.github.io/DQN/)
 
 2) DDQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DDQN/double_DQN_cartpole.ipynb)
 
-&nbsp;&nbsp;&nbsp;A Double Deep Q Network (DDQN) implementation in tensorflow with random
+>A Double Deep Q Network (DDQN) implementation in tensorflow with random
 experience replay. [write-ups](https://chuacheowhuan.github.io/DDQN/)
 
 3) Duelling DDQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/duel_DDQN/duelling_DDQN_cartpole.ipynb)
@@ -55,9 +55,9 @@ continuous environment. [write-ups](https://chuacheowhuan.github.io/A3C_cont_thr
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 distributed Tensorflow and Python's multiprocessing package.
-CartPole-v0 is used as the discrete environment. [write-ups]()
+CartPole-v0 is used as the discrete environment. [write-ups pending...]()
 
 9) DPPO continuous (normalized running rewards with GAE) implementation with
 distributed Tensorflow and Python's multiprocessing package. [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/DPPO_cont_GAE_dist_GPU.ipynb)
 
->Pendulum-v0 is used as the continuous environment. [write-ups]()
+>Pendulum-v0 is used as the continuous environment. [write-ups pending...]()
