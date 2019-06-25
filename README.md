@@ -33,31 +33,31 @@ with random experience replay. CartPole-v0 is used as the discrete environment. 
 (Duel DDQN with PER) implementation in tensorflow. CartPole-v0 is used as the
 discrete environment. [write-ups](https://chuacheowhuan.github.io/Duel_DDQN_with_PER/)
 
-5) A3C discrete with N-step targets (missing terms are treated as zero) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/A3C/A3C_disc_miss.ipynb)
+5) A3C discrete with N-step targets (missing terms are treated as zero) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_miss.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 Tensorflow. This is a multi-threaded version. CartPole-v0 is used as the
 discrete environment. [write-ups](https://chuacheowhuan.github.io/A3C_disc_thread_nStep/)
 
-6) A3C discrete with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/A3C/A3C_disc_max.ipynb)
+6) A3C discrete with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_max.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 Tensorflow. This is a multi-threaded version. CartPole-v0 is used as the
 discrete environment. [write-ups](https://chuacheowhuan.github.io/A3C_disc_thread_nStep/)
 
-7) A3C continuous with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/A3C/A3C_cont_max.ipynb)
+7) A3C continuous with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_cont_max.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 Tensorflow. This is a multi-threaded version. Pendulum-v0 is used as for
 continuous environment. [write-ups](https://chuacheowhuan.github.io/A3C_cont_thread_nStep/)
 
-8) A3C discrete with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/A3C/A3C_disc_max_dist.ipynb)
+8) A3C discrete with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_max_dist.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 distributed Tensorflow and Python's multiprocessing package.
 CartPole-v0 is used as the discrete environment. [write-ups](https://chuacheowhuan.github.io/A3C_dist_tf/)
 
 9) DPPO continuous (normalized running rewards with GAE) implementation with
-distributed Tensorflow and Python's multiprocessing package. [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/policy_gradient_based/DPPO_cont_GAE_dist_GPU.ipynb)
+distributed Tensorflow and Python's multiprocessing package. [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DPPO/DPPO_cont_GAE_dist_GPU.ipynb)
 
 >Pendulum-v0 is used as the continuous environment. [write-ups](https://chuacheowhuan.github.io/DPPO_dist_tf/)
