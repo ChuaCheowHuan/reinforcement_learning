@@ -14,12 +14,12 @@ If you're unable to view the Jupyter notebooks on Github
 (This is a known Github issue which happens randomly as of 20090624),
 copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.jupyter.org/).
 
-1) DQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
+1) Deep Q networks (DQN) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
 >A Deep Q Network implementation in tensorflow with target network & random
 experience replay. CartPole-v0 is used as the discrete environment. [writeup](https://chuacheowhuan.github.io/DQN/)
 
-2) DDQN [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DDQN/double_DQN_cartpole.ipynb)
+2) Double DQN (DDQN) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DDQN/double_DQN_cartpole.ipynb)
 
 >A Double Deep Q Network (DDQN) implementation in tensorflow with random
 experience replay. [writeup](https://chuacheowhuan.github.io/DDQN/)
@@ -35,7 +35,7 @@ with random experience replay. CartPole-v0 is used as the discrete environment. 
 (Duel DDQN with PER) implementation in tensorflow. CartPole-v0 is used as the
 discrete environment. [writeup](https://chuacheowhuan.github.io/Duel_DDQN_with_PER/)
 
-5) A3C discrete with N-step targets (missing terms are treated as zero) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_miss.ipynb)
+5) Asynchronous Advantage Actor Critic (A3C) discrete with N-step targets (missing terms are treated as zero) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_miss.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 Tensorflow. This is a multi-threaded version. CartPole-v0 is used as the
@@ -59,7 +59,16 @@ continuous environment. [writeup](https://chuacheowhuan.github.io/A3C_cont_threa
 distributed Tensorflow and Python's multiprocessing package.
 CartPole-v0 is used as the discrete environment. [writeup](https://chuacheowhuan.github.io/A3C_dist_tf/)
 
-9) DPPO continuous (normalized running rewards with GAE) implementation with
-distributed Tensorflow and Python's multiprocessing package. [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DPPO/DPPO_cont_GAE_dist_GPU.ipynb)
+9) Distributed Proximal Policy Optimization (DPPO) continuous (normalized running rewards with GAE) implementation with distributed Tensorflow and Python's multiprocessing package. [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DPPO/DPPO_cont_GAE_dist_GPU.ipynb)
 
 >Pendulum-v0 is used as the continuous environment. [writeup](https://chuacheowhuan.github.io/DPPO_dist_tf/)
+
+10) RDN (Random Distillation Network) with Proximal Policy Optimization (PPO) Tensorflow.
+
+Full code:
+
+[Jupyter notebook](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.ipynb)
+
+[Python file](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.py)
+
+>Pendulum-v0 is used as the continuous environment. [writeup](https://chuacheowhuan.github.io/RDN/)
