@@ -53,7 +53,7 @@ discrete environment. [writeup](https://chuacheowhuan.github.io/A3C_disc_thread_
 Tensorflow. This is a multi-threaded version. Pendulum-v0 is used as for
 continuous environment. [writeup](https://chuacheowhuan.github.io/A3C_cont_thread_nStep/)
 
-8) A3C discrete with N-step targets (maximum possible terms are used) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_max_dist.ipynb)
+8) A3C discrete with N-step targets (maximum possible terms are used) (Implementated with distributed Tensorflow and Python's multiprocessing package) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/A3C/A3C_disc_max_dist.ipynb)
 
 >A3C (Asynchronous Advantage Actor Critic) implementation with
 distributed Tensorflow and Python's multiprocessing package.

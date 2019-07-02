@@ -57,7 +57,7 @@ class PPO(object):
         # RDN
         with tf.variable_scope('RDN'):
           with tf.variable_scope('target'):
-            r_w = tf.random_normal_initializer()
+            r_w = tf.random_normal_initializer() # must be random normal
             # Fixed target network encodes state to features
             # Network randomly initialized once but never trained, params remain fixed, trainable=False
             self.target_out = tf.layers.dense(self.s_, encode_features, kernel_initializer = r_w, name='target_out', trainable=False)
@@ -67,6 +67,7 @@ class PPO(object):
             #p_w = tf.zeros_initializer()
             p_w = tf.random_normal_initializer()
             #p_w = tf.glorot_uniform_initializer()
+            #p_w = tf.glorot_normal_initializer()
 
             self.predictor_out = tf.layers.dense(self.s_, encode_features, kernel_initializer = p_w, name='predictor_out', trainable=True)
             # self.predictor_loss is also the intrinsic reward
@@ -79,6 +80,7 @@ class PPO(object):
             #c_w = tf.zeros_initializer()
             c_w = tf.random_normal_initializer()
             #c_w = tf.glorot_uniform_initializer()
+            #c_w = tf.glorot_normal_initializer()
 
             self.v = tf.layers.dense(self.s, 1, kernel_initializer = c_w, name='val', trainable=True)
             self.tfdc_r = tf.placeholder(tf.float32, [None, 1], 'discounted_r')
@@ -134,6 +136,7 @@ class PPO(object):
             #a_w = tf.zeros_initializer()
             #a_w = tf.random_normal_initializer() # can't use random for actor, produces nan action
             a_w = tf.glorot_uniform_initializer()
+            #a_w = tf.glorot_normal_initializer()
 
             mu = tf.layers.dense(self.s, A_DIM, tf.nn.tanh, kernel_initializer = a_w, name='mu', trainable=trainable)
             sigma = tf.layers.dense(self.s, A_DIM, tf.nn.softplus, kernel_initializer = a_w, name='sigma', trainable=trainable) + 1e-4
