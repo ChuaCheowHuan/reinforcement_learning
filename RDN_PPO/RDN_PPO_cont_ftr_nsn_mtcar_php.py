@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-
-"""
-Author:Chua Cheow Huan
-RDN_PPO_cont_ftr_nsn_mtCar_php.ipynb
-"""
-
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
