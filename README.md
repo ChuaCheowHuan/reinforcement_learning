@@ -67,8 +67,8 @@ CartPole-v0 is used as the discrete environment. [writeup](https://chuacheowhuan
 
 Full code:
 
-[Jupyter notebook](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.ipynb)
+>[Jupyter notebook](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.ipynb)
 
-[Python file](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.py)
+>[Python file](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/RDN_PPO/RND_PPO_cont_ftr_nsn_mtCar.py)
 
->Pendulum-v0 is used as the continuous environment. [writeup](https://chuacheowhuan.github.io/RDN/)
+>MountainCarContinuous-v0 is used as the continuous environment. [writeup](https://chuacheowhuan.github.io/RDN/)
