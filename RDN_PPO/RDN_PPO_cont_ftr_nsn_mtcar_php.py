@@ -1,3 +1,9 @@
+"""
+Random Distillation Network (RDN) with Proximal Policy Optimization (PPO) implentation in Tensorflow.
+This is a continuous action version which solves the mountain car continuous problem (MountainCarContinuous-v0).
+The RDN helps learning with curiosity driven exploration.
+"""
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
