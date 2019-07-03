@@ -15,7 +15,7 @@ This repository contains codes that I have reproduced for various RL algorithms.
 | RDN + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 |
 
 <sup><sup>(1): N-step returns used for critic's target.</sup></sup><br>
-<sup><sup>(2): Distributed tensorflow & Python's multiprocessing used.</sup></sup><br>
+<sup><sup>(2): Distributed Tensorflow & Python's multiprocessing used.</sup></sup><br>
 
 ## Blog
 
