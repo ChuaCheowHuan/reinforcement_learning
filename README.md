@@ -11,7 +11,7 @@ learning algorithms. The codes were tested on Colab.
 | Double DQN (DDQN)           | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
 | Dueling DDQN                | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
 | Dueling DDQN + PER          | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
-| A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:               | CartPole-v0, Pendulum-v0 |
+| A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:<sup>(3)</sup> | CartPole-v0, Pendulum-v0 |
 | DPPO <sup>(2)</sup>         |                                   | :heavy_check_mark:                |                                   | :heavy_check_mark:<sup>(3)</sup> | Pendulum-v0              |
 | RDN + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 |
 
