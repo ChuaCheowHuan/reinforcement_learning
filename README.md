@@ -1,6 +1,7 @@
-# Reinforcement learning
+# What's in this repository?
 
-This repository contains codes that I have reproduced for various RL algorithms. The codes were tested on Colab.
+This repository contains codes that I have reproduced for various reinforcement
+learning algorithms. The codes were tested on Colab.
 
 ## Implemented Algorithms
 
