@@ -1,18 +1,21 @@
-### Reinforcement learning
+# Reinforcement learning
 
 This repository contains codes that I have reproduced for various RL algorithms.
 
 ## Implemented Algorithms
 
-| **Algorithms implemented**  | **Discrete**                      | **Continuous**                    | Multithreaded                     | Multiprocess                    | **Tested on**            |
-| --------------------------- | --------------------------------- | --------------------------------- |-----------------------------------|---------------------------------|--------------------------|
-| DQN                         | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
-| Double DQN (DDQN)           | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
-| Dueling DDQN                | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
-| Dueling DDQN + PER          | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
-| A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:              | CartPole-v0, Pendulum-v0 |
-| DPPO                        |                                   | :heavy_check_mark: <sup>(2)</sup> |                                   | :heavy_check_mark:              | Pendulum-v0              |
-| RDN + PPO                   |                                   | :heavy_check_mark:                |                                   |                                 | MountainCarContinuous-v0 |
+| **Algorithms**              | **Discrete**                      | **Continuous**                    | Multithreaded                     | Multiprocessing                  | **Tested on**            |
+| --------------------------- | --------------------------------- | --------------------------------- |-----------------------------------|----------------------------------|--------------------------|
+| DQN                         | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
+| Double DQN (DDQN)           | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
+| Dueling DDQN                | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
+| Dueling DDQN + PER          | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
+| A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:               | CartPole-v0, Pendulum-v0 |
+| DPPO                        |                                   | :heavy_check_mark:                |                                   | :heavy_check_mark:<sup>(2)</sup> | Pendulum-v0              |
+| RDN + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 |
+
+<sup><sup>(1): N-step returns used for critic's target.</sup></sup><br>
+<sup><sup>(2): Distributed tensorflow & Python's multiprocessing used.</sup></sup><br>
 
 ## Blog
 
