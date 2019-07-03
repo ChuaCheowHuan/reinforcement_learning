@@ -1,18 +1,27 @@
-# reinforcement_learning
+### Reinforcement learning
 
-Reproducing RL algorithms.
+This repository contains codes that I have reproduced for various RL algorithms.
 
-All Jupyter notebooks in this repo can be run directly in Google's Colab.
+## Implemented Algorithms
 
-All results are displayed as output charts shown at the bottom of the notebooks.
+| **Algorithms implemented**  | **Discrete**                      | **Continuous**                    | Multithreaded                     | Multiprocess                    | **Tested on**            |
+| --------------------------- | --------------------------------- | --------------------------------- |-----------------------------------|---------------------------------|--------------------------|
+| DQN                         | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
+| Double DQN (DDQN)           | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
+| Dueling DDQN                | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
+| Dueling DDQN + PER          | :heavy_check_mark:                |                                   |                                   |                                 | CartPole-v0              |
+| A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:              | CartPole-v0, Pendulum-v0 |
+| DPPO                        |                                   | :heavy_check_mark: <sup>(2)</sup> |                                   | :heavy_check_mark:              | Pendulum-v0              |
+| RDN + PPO                   |                                   | :heavy_check_mark:                |                                   |                                 | MountainCarContinuous-v0 |
 
-The blog for this repo is available at the following Github page:
+## Blog
 
-[https://ChuaCheowHuan.github.io/](https://ChuaCheowHuan.github.io/)
+Check out my [blog](https://ChuaCheowHuan.github.io/) for more information on my repositories.
 
-If you're unable to view the Jupyter notebooks on Github
-(This is a known Github issue which happens randomly as of 20090624),
-copy the code's URL & paste it in the search bar at [nbviewer](https://nbviewer.jupyter.org/).
+
+
+
+
 
 1) Deep Q networks (DQN) [code](https://github.com/ChuaCheowHuan/reinforcement_learning/blob/master/DQN_variants/DQN/DQN_cartpole.ipynb)
 
