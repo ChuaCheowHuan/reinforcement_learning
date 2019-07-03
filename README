@@ -16,7 +16,7 @@ This repository contains codes that I have reproduced for various RL algorithms.
 
 <sup><sup>(1): N-step returns used for critic's target.</sup></sup><br>
 <sup><sup>(1): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
-<sup><sup>(3): Distributed Tensorflow & Python's multiprocessing used.</sup></sup><br>
+<sup><sup>(3): Distributed Tensorflow & Python's multiprocessing package used.</sup></sup><br>
 
 ## Blog
 
