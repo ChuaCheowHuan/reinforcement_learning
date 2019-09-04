@@ -4,7 +4,7 @@ This repository contains codes that I have reproduced for various reinforcement
 learning algorithms. The codes were tested on Colab.
 
 Github has known issues rendering Jupyter notebooks, if you are having trouble
-viewing my notebooks on Github, click [**here**](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/)
+viewing my notebooks on Github, click [***here***](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/)
 to view my notebooks on Jupyter's nbviewer.
 
 ## Implemented Algorithms
