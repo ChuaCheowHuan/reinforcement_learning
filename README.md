@@ -3,9 +3,9 @@
 This repository contains codes that I have reproduced for various reinforcement
 learning algorithms. The codes were tested on Colab.
 
-Github has known issues rendering Jupyter notebooks, if you are having trouble
-viewing my notebooks on Github, click [***here***](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/)
-to view my notebooks on Jupyter's nbviewer.
+If Github is not loading the Jupyter notebooks, a known Github issue, click [here](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/) to view the notebooks on Jupyter's nbviewer.
+
+---
 
 ## Implemented Algorithms
 
@@ -23,6 +23,16 @@ to view my notebooks on Jupyter's nbviewer.
 <sup><sup>(1): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
 <sup><sup>(3): Distributed Tensorflow & Python's multiprocessing package used.</sup></sup><br>
 
+---
+
+## misc folder
+
+See the [README.md](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/misc/README.md)
+for other related examples in misc folder.
+
+---
+
 ## Blog
 
-Check out my [blog](https://ChuaCheowHuan.github.io/) for more information on my repositories.
+Check out my [blog](https://ChuaCheowHuan.github.io/) for more information on
+my repositories.
