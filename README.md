@@ -1,9 +1,11 @@
 # What's in this repository?
 
-This repository contains codes that I have reproduced for various reinforcement
-learning algorithms. The codes were tested on Colab.
+This repository contains codes that I have reproduced (while learning RL) for
+various reinforcement learning algorithms. The codes were tested on Colab.
 
-If Github is not loading the Jupyter notebooks, a known Github issue, click [here](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/) to view the notebooks on Jupyter's nbviewer.
+If Github is not loading the Jupyter notebooks, a known Github issue,
+click [here](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/)
+to view the notebooks on Jupyter's nbviewer.
 
 ---
 
@@ -27,8 +29,9 @@ If Github is not loading the Jupyter notebooks, a known Github issue, click [her
 
 ## misc folder
 
-See the [README.md](https://github.com/ChuaCheowHuan/reinforcement_learning/tree/master/misc/README.md)
-for other related examples in misc folder.
+The misc folder contains related example codes that I have put together while
+learning RL. See the [README.md](https://github.com/ChuaCheowHuan/reinforcement_learning/tree/master/misc/README.md)
+in the misc folder for more details.
 
 ---
 
