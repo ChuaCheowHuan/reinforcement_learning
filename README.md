@@ -27,7 +27,7 @@ If Github is not loading the Jupyter notebooks, a known Github issue, click [her
 
 ## misc folder
 
-See the [README.md](https://nbviewer.jupyter.org/github/ChuaCheowHuan/reinforcement_learning/tree/master/misc/README.md)
+See the [README.md](https://github.com/ChuaCheowHuan/reinforcement_learning/tree/master/misc/README.md)
 for other related examples in misc folder.
 
 ---
