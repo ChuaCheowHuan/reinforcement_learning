@@ -261,6 +261,8 @@ tf.set_random_seed(tf_graph_level_seed) # called before session creation
 global_step = tf.Variable(0, name="global_step", trainable=False)
 rnd_ppo = RND_PPO(tf_operation_level_seed)
 
+rnd_ppo.writer = tf.summary.FileWriter('./graphs', rnd_ppo.sess.graph)
+
 all_steps = [] # stores number of episodic steps for display
 all_ep_r = [] # stores raw episodic rewards for display
 mv_all_ep_r = [] # store moving average episodic rewards for display
@@ -403,5 +405,8 @@ plt.plot(mv_all_ep_r)
 plt.ylabel("mv_reward")
 plt.xlabel("episode")
 plt.show()
+
+# Close tf.summary.FileWriter
+rnd_ppo.writer.close()
 
 print("--- %s seconds ---" % (time.time() - start_time))
