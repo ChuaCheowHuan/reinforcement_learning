@@ -25,7 +25,7 @@ to view the notebooks on Jupyter's nbviewer.
 <sup><sup>(1): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
 <sup><sup>(3): Distributed Tensorflow & Python's multiprocessing package used.</sup></sup><br>
 <sup><sup>(4): State featurization (approximates feature map of an RBF kernel) is used.</sup></sup><br>
-<sup><sup>(5): Fast-slow LSTM with VAE like "variational unit" (VU) is used.</sup></sup><br>
+<sup><sup>(5): Fast-slow LSTM with an overly simplified VAE like "variational unit" (VU) is used.</sup></sup><br>
 
 ---
 
