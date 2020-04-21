@@ -19,11 +19,13 @@ to view the notebooks on Jupyter's nbviewer.
 | Dueling DDQN + PER          | :heavy_check_mark:                |                                   |                                   |                                  | CartPole-v0              |
 | A3C <sup>(1)</sup>          | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:                | :heavy_check_mark:<sup>(3)</sup> | CartPole-v0, Pendulum-v0 |
 | DPPO <sup>(2)</sup>         |                                   | :heavy_check_mark:                |                                   | :heavy_check_mark:<sup>(3)</sup> | Pendulum-v0              |
-| RND + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 |
+| RND + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 <sup>(4)</sup>, Pendulum-v0 <sup>(5)</sup> |
 
 <sup><sup>(1): N-step returns used for critic's target.</sup></sup><br>
 <sup><sup>(1): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
 <sup><sup>(3): Distributed Tensorflow & Python's multiprocessing package used.</sup></sup><br>
+<sup><sup>(4): State featurization (approximates feature map of an RBF kernel) is used.</sup></sup><br>
+<sup><sup>(5): Fast-slow LSTM with VAE like "variational unit" (VU) is used.</sup></sup><br>
 
 ---
 
