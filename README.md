@@ -22,7 +22,7 @@ to view the notebooks on Jupyter's nbviewer.
 | RND + PPO                   |                                   | :heavy_check_mark:                |                                   |                                  | MountainCarContinuous-v0 <sup>(4)</sup>, Pendulum-v0 <sup>(5)</sup> |
 
 <sup><sup>(1): N-step returns used for critic's target.</sup></sup><br>
-<sup><sup>(1): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
+<sup><sup>(2): GAE used for computation of TD lambda return (for critic's target) & policy's advantage.</sup></sup><br>
 <sup><sup>(3): Distributed Tensorflow & Python's multiprocessing package used.</sup></sup><br>
 <sup><sup>(4): State featurization (approximates feature map of an RBF kernel) is used.</sup></sup><br>
 <sup><sup>(5): Fast-slow LSTM with an overly simplified VAE like "variational unit" (VU) is used.</sup></sup><br>
